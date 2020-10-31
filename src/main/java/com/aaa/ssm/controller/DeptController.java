@@ -26,7 +26,7 @@ public class DeptController  {
      * 部门列表   "/list","/listD"  地址栏中 请求地址为 /dept/list   /dept/listD
      * @return
      */
-    @RequestMapping(value = {"/list","/listD"})
+    @RequestMapping(value = {"/list","/listD","listQy117"})
     public ModelAndView list(){
       //  ModelAndView modelAndView =new ModelAndView();
        // modelAndView.setViewName("dept/list");
